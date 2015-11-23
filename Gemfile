@@ -30,6 +30,10 @@ gem 'jbuilder', '~> 1.2'
 # Use Twitter Boostrap 3 for design framework.
 gem 'bootstrap-sass', '~>3.3.4'
 
+gem 'simple_form'
+
+gem 'devise', '>= 3.2.4'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
