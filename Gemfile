@@ -30,6 +30,8 @@ gem 'jbuilder', '~> 1.2'
 # Use Twitter Boostrap 3 for design framework.
 gem 'bootstrap-sass', '~>3.3.4'
 
+gem 'sprockets', '2.11.0'
+
 gem 'simple_form'
 
 gem 'devise', '>= 3.2.4'
