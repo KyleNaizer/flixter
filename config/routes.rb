@@ -2,6 +2,7 @@ Flixter::Application.routes.draw do
   devise_for :users
   resource :dashboard, :only => [:show]
   root 'static_pages#index'
+  get 'privacy', :to => 'static_pages#privacy'
   resources :courses, :only => [:index, :show] do
     resources :enrollments, :only => :create
   end
@@ -18,7 +19,7 @@ Flixter::Application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
-  # You can have the root of your site routed with "root"
+  # You can have the root of your site routed with "root"rai
   # root 'welcome#index'
 
   # Example of regular route:
